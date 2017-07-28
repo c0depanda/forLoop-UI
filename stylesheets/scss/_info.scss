@@ -1,0 +1,482 @@
+/* Reasons Section */
+
+.reasons {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.section__title {
+    font-size: 22px;
+    font-weight: $font-medium;
+    text-align: center;
+    color: $title-color;
+    padding-bottom: 50px;
+    @include media(567px) {
+        font-size: 30px;
+    }
+}
+
+.reasons__item {
+    text-align: center;
+    @include media(768px) {
+        @include span-columns(4);
+    }
+}
+
+.reasons__item__title {
+    font-size: 14px;
+    font-weight: $font-medium;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: $title-color;
+    text-transform: uppercase;
+}
+
+.reasons__item__content {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 14px;
+}
+
+.reasons__item__icon {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.reasons__item__value {
+    font-size: 10px;
+    font-weight: $font-medium;
+    line-height: 1;
+    margin-left: -70px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    padding-top: 3px;
+    background-color: $brand-color;
+}
+
+/* Jumbotron Section */
+
+.jumbotron {
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    @include media(768px) {
+        padding: 100px 0;
+    }
+}
+
+.jumbotron--overlay {
+    &::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: ' ';
+        z-index: 1;
+        background-color: rgba(63, 74, 95, 0.7);
+    }
+}
+
+
+.jumbotron__title {
+    font-size: 22px;
+    font-weight: $font-medium;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 463px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    @include media(567px) {
+        font-size: 30px;
+    }
+}
+
+.jumbotron__title--2 {
+    max-width: 100%;
+    padding-bottom: 0;
+    color: $title-color;
+}
+
+.jumbotron__btn {
+    width: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.overlay-fix {
+    position: relative;
+    z-index: 2;
+}
+
+.input-section {
+    margin-bottom: 15px;
+    @include media(768px) {
+        @include span-columns(8, block-collapse);
+        margin-bottom: 0px;
+    }
+}
+
+.submit-button {
+    @include media(768px) {
+        @include span-columns(4);
+    }
+}
+
+.jumbotron__action--maxsize {
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+/* Sponsors Section */
+
+.sponsors {
+    padding: 60px 0;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.sponsors__title {
+    font-size: 22px;
+    font-weight: $font-medium;
+    text-align: center;
+    color: $title-color;
+    padding-bottom: 50px;
+    @include media(567px) {
+        font-size: 30px;
+    }
+}
+
+.sponsors-logo-blend {
+    position: relative;
+    display: block;
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: ' ';
+        background-color: $accent-color;
+        mix-blend-mode: color;
+    }
+}
+
+.sponsors-image__responsive {
+    max-width: 100%;
+    display: block;
+    background-color: #fff;
+}
+
+.sponsors__list__row {
+    text-align: center;
+}
+
+.sponsors__list__item {
+    text-align: center;
+    position: relative;
+}
+
+.sponsors__list__link--gigalayer {
+    max-width: 225px;
+}
+
+.sponsors__list__link--printivo {
+    max-width: 171px;
+}
+
+.sponsors__list__link--flutterwave {
+    max-width: 218px;
+}
+
+.sponsors__list__link--capture {
+    max-width: 311px;
+}
+
+.sponsors__list__link--idea {
+    max-width: 156px;
+}
+
+.sponsors__list__link--enspire {
+    max-width: 174px;
+}
+
+.sponsors__list__link--chowhub {
+    max-width: 189px;
+}
+
+.sponsors__list__link--projaro {
+    max-width: 75px;
+}
+
+.sponsors__list__link--hotelsng {
+    max-width: 144px;
+}
+
+
+.sponsors__list__row--1,
+.sponsors__list__row--2 {
+    display: flex;
+    align-items: center;
+}
+
+.sponsors__list__item {
+    display: flex;
+    flex: 1 1 auto;
+    padding: 20px 35px;
+}
+
+
+
+.line-through {
+    margin: 0;
+    border-width: 1px 0 0;
+    border-style: solid;
+    border-color: $highlight;
+}
+
+/* About Section */
+
+.about {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.about__title {
+    font-size: 22px;
+    font-weight: $font-medium;
+    text-align: center;
+    color: $title-color;
+    padding-bottom: 10px;
+    @include media(567px) {
+        font-size: 30px;
+    }
+}
+
+.about__content {
+    font-weight: $font-light;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: $text-color;
+    max-width: 756px;
+    margin: auto;
+    @include media(567px) {
+        font-size: 22px;
+    }
+}
+
+
+/* Image Section */
+
+.images__section {
+    padding: 30px 0;
+    background-color: #ffffff;
+}
+
+.images__section__left {
+    @include span-columns(6);
+    height: 424px;
+    @include media(768px) {
+        @include span-columns(3);
+        height: 424px;
+    }
+}
+
+.images__section__middle {
+    height: 300px;
+    @include media(567px) {
+        height: 424px;
+    }
+    @include media(768px) {
+        @include span-columns(6);
+    }
+}
+
+.images__section__right {
+    @include span-columns(6);
+    @include media(768px) {
+        @include span-columns(3);
+        height: 424px;
+    }
+}
+
+.images__section__right__top {
+    margin-bottom: 24px;
+    height: 200px;
+}
+
+.images__section__right__bottom {
+    height: 200px;
+}
+
+.images__section__left,
+.images__section__middle,
+.images__section__right__top,
+.images__section__right__bottom {
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Meeting Sections */
+
+.meeting__item {
+    margin-bottom: 20px;
+    @include media(min-width 768px max-width 991px) {
+        margin-bottom: 25px;
+        @include span-columns(6);
+        @include omega(2n);
+        height: 251px;
+    }
+    @include media(992px) {
+        margin-bottom: 25px;
+        @include span-columns(4);
+        @include omega(3n);
+        height: 251px;
+    }
+}
+
+.meeting__item__content {
+    padding: 15px 30px 15px 15px;
+    background-color: #ffffff;
+    border: 1px solid $light-grey;
+}
+
+.meeting__item__title {
+    font-size: 24px;
+    color: $title-color;
+    text-decoration: none;
+    &:hover {
+        color: darken($title-color, 20%);
+    }
+}
+
+.meeting__item__location {
+    color: $title-color;
+    text-decoration: none;
+    &:hover {
+        color: darken($title-color, 20%);
+    }
+}
+
+.meeting__item__date {
+    color: $title-color;
+}
+
+.meeting__item__host__caption {
+    letter-spacing: 0.3px;
+    color: $grey;
+    margin-left: 10px;
+}
+
+.meeting__item__host {
+    display: flex;
+    align-items: center;
+}
+
+.meeting__item__content__top {
+    height: 130px
+}
+
+.meeting__item__resource {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    background-color: $accent-color;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.meeting__item__resource__text {
+    font-size: 16px;
+    font-weight: $font-medium;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+}
+
+.meeting__item__resource__icon {
+    padding-top: 5px;
+}
+
+.meeting__item__icon {
+    color: $very-light-grey;
+}
+
+.meeting__item__caption {
+    font-size: 20px;
+	letter-spacing: 0.4px;
+	text-align: center;
+    margin: 10px;
+	color: $very-light-grey;
+}
+
+.meeting__item--dashed {
+    border: 1px dashed $border-color;
+}
+
+.meeting__item__add {
+    padding: 80px 0;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+/* Tabs */
+
+.tab-nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid $light-grey;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.tab-nav__item {
+    &.active {
+        .tab-nav__link {
+            box-shadow: inset 0 -4px 0 0 $brand-color;
+        }
+    }
+}
+
+.tab-nav__link {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: $title-color;
+    text-align: center;
+    font-size: 16px;
+    &:hover {
+        box-shadow: inset 0 -4px 0 0 $brand-color;
+    }
+}
+
+.tab__section {
+    background-color: #ffffff;
+}
+
+.tab-content__item {
+    padding: 40px 0 80px;
+    border-bottom: 1px solid $light-grey;
+    display: none;
+    &.active {
+        display: block;
+    }
+}

@@ -1,0 +1,31 @@
+.btn {
+    color: $accent-color;
+    display: inline-block;
+    font-weight: $font-normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 11px 16px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn--primary {
+    background-color: #39ee00;
+    &:hover {
+        background-color: $hover-color;
+    }
+}
+
+.btn--block {
+    display: block;
+    width: 100%;
+}

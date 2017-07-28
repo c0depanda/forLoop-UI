@@ -1,0 +1,1630 @@
+/* line 4, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 11, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_box-sizing.scss */
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 9, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 78, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 99, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 119, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 163, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 170, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 174, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 356, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 376, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 387, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 396, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 405, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 416, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 422, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/* line 433, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_normalize.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0; }
+
+@font-face {
+  font-family: 'FaktSoftPro';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/FaktSoftPro-Blond.woff") format("woff"), url("../fonts/FaktSoftPro-Blond.ttf") format("TrueType"); }
+
+@font-face {
+  font-family: 'FaktSoftPro';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/FaktSoftPro-Normal.woff") format("woff"), url("../fonts/FaktSoftPro-Normal.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'FaktSoftPro';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/FaktSoftPro-Medium.woff") format("woff"), url("../fonts/FaktSoftPro-Medium.ttf") format("TrueType"); }
+
+/* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor {
+  min-width: 525px; }
+  @media screen and (max-width: 567px) {
+    /* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+    .text-editor {
+      transform: scale(0.8);
+      margin-left: -52px;
+      margin-bottom: -35px; } }
+
+/* line 10, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor__header {
+  height: 30px;
+  padding: 5px 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #1a1a1a; }
+
+/* line 18, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor__header__item {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px; }
+
+/* line 26, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor__header__item--close {
+  background-color: #f14443; }
+
+/* line 30, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor__header__item--minimize {
+  background-color: #fab312; }
+
+/* line 34, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor__header__item--full-screen {
+  background-color: #37c125; }
+
+/* line 38, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor__tile {
+  padding-top: 7px;
+  height: 35px;
+  padding-left: 22px;
+  background-color: #2f3a4d; }
+
+/* line 45, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor__tile__item {
+  position: relative;
+  display: inline-block;
+  width: 140px;
+  height: 28px;
+  padding: 5px 10px;
+  color: #2f4358;
+  font-size: 12px;
+  margin-right: 15px;
+  letter-spacing: 0.4px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #c2c2c2; }
+  /* line 58, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+  .text-editor__tile__item::before {
+    position: absolute;
+    content: ' ';
+    left: -13px;
+    bottom: 0;
+    border-left: 15px solid transparent;
+    border-bottom: 24px solid #c2c2c2; }
+  /* line 66, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+  .text-editor__tile__item::after {
+    position: absolute;
+    content: ' ';
+    right: -13px;
+    bottom: 0;
+    border-right: 15px solid transparent;
+    border-bottom: 24px solid #c2c2c2; }
+  /* line 74, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+  .text-editor__tile__item.active {
+    background-color: #1a1a1a;
+    color: #fff; }
+    /* line 77, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+    .text-editor__tile__item.active::before {
+      border-bottom: 24px solid #1a1a1a; }
+    /* line 80, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+    .text-editor__tile__item.active::after {
+      border-bottom: 24px solid #1a1a1a;
+      z-index: 2; }
+
+/* line 87, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.text-editor__body {
+  height: 276px;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  padding: 15px;
+  font-size: 12px; }
+
+/* line 95, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.code {
+  line-height: 1.45;
+  color: #ffffff; }
+
+/* line 100, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.line-number {
+  width: 16px;
+  margin-right: 16px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #a4a4a4;
+  font-family: 'SourceCodePro-Medium', 'MS Gothic', monospace; }
+
+/* line 111, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.tag {
+  color: #f63ba8; }
+
+/* line 115, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.block__indent-1 {
+  margin-right: 50px; }
+
+/* line 119, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.block__indent-2 {
+  margin-right: 80px; }
+
+/* line 123, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.block__indent-3 {
+  margin-right: 60px; }
+
+/* line 127, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_text-editor.scss */
+.context {
+  color: #39ee00; }
+
+/* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_form.scss */
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 11px 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+  box-shadow: inset 0 1px 1px rgba(6, 237, 6, 0.075);
+  transition: border-color ease-in-out 0.3s, box-shadow ease-in-out 0.3s; }
+  /* line 17, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_form.scss */
+  .form__input:focus {
+    border-color: #06ed06; }
+
+/* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_buttons.scss */
+.btn {
+  color: #202a3c;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 11px 16px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease; }
+
+/* line 21, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_buttons.scss */
+.btn--primary {
+  background-color: #39ee00; }
+  /* line 23, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_buttons.scss */
+  .btn--primary:hover {
+    background-color: #54fb54; }
+
+/* line 28, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_buttons.scss */
+.btn--block {
+  display: block;
+  width: 100%; }
+
+/* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_settings.scss */
+body {
+  font-size: 14px;
+  font-family: "FaktSoftPro", sans-serif;
+  font-weight: 400;
+  color: #7787a3;
+  padding-top: 100px;
+  background-color: #202a3c; }
+
+/* line 10, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_settings.scss */
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+/* line 15, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_settings.scss */
+[class^="icon-"], [class*=" icon-"] {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  fill: currentColor; }
+  /* line 21, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_settings.scss */
+  [class^="icon-"].icon-md, [class*=" icon-"].icon-md {
+    height: 25px;
+    width: 25px; }
+  /* line 26, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_settings.scss */
+  [class^="icon-"].icon-sm, [class*=" icon-"].icon-sm {
+    height: 20px;
+    width: 20px; }
+  /* line 31, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_settings.scss */
+  [class^="icon-"].icon-xs, [class*=" icon-"].icon-xs {
+    height: 15px;
+    width: 15px; }
+  /* line 35, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_settings.scss */
+  [class^="icon-"].icon-ss, [class*=" icon-"].icon-ss {
+    height: 18px;
+    width: 18px; }
+
+/* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.navbar {
+  position: fixed;
+  height: 100px;
+  background-color: #202a3c;
+  transition: all 0.5s ease-in-out;
+  top: 0;
+  z-index: 4;
+  left: 0;
+  right: 0; }
+
+/* line 12, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.navbar__container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px; }
+
+/* line 21, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.navbar__left,
+.navbar__right {
+  display: flex;
+  align-items: center; }
+
+@media screen and (max-width: 780px) {
+  /* line 26, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .navbar__right--hide {
+    display: none; } }
+
+@media screen and (max-width: 650px) {
+  /* line 32, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .navbar__item--hide {
+    display: none; } }
+
+@media screen and (max-width: 489px) {
+  /* line 38, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .navbar__item--hide--xs {
+    display: none; } }
+
+/* line 44, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.navbar__item__link {
+  display: block;
+  padding: 10px 40px;
+  color: #ffffff;
+  text-decoration: none; }
+  /* line 49, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .navbar__item__link:hover {
+    text-decoration: none;
+    color: #06ed06; }
+  /* line 53, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .navbar__item__link:first-child {
+    padding-left: 15px; }
+
+/* line 58, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.link-caption {
+  display: block;
+  color: #9fa3a7;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.4px; }
+
+/* line 66, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.link-text {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease; }
+
+/* line 73, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.social-link {
+  display: inline-block;
+  margin: 5px 0 0 5px;
+  vertical-align: middle;
+  color: #fff;
+  transition: all 0.3s ease; }
+
+/* line 82, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.social-link--facebook:hover {
+  color: #3b5998; }
+
+/* line 88, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.social-link--twitter:hover {
+  color: #1da1f2; }
+
+/* line 94, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.social-link--github:hover {
+  color: #333333; }
+
+/* line 99, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.brand-logo {
+  position: relative;
+  z-index: 6; }
+  /* line 107, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .brand-logo #path-f,
+  .brand-logo #path-o,
+  .brand-logo #path-r,
+  .brand-logo #path-l,
+  .brand-logo #path-oo,
+  .brand-logo #path-p {
+    transition: all 1s linear; }
+  /* line 113, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .brand-logo:hover #path-f,
+  .brand-logo:hover #path-o,
+  .brand-logo:hover #path-r {
+    fill: #06ed06; }
+  /* line 119, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .brand-logo:hover #path-l,
+  .brand-logo:hover #path-oo,
+  .brand-logo:hover #path-p {
+    fill: #ffffff; }
+
+/* line 125, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.mobile-toggle {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  z-index: 5;
+  display: none;
+  transition: top 0.3s ease-in-out; }
+  @media screen and (max-width: 650px) {
+    /* line 125, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+    .mobile-toggle {
+      display: block; } }
+
+/* line 137, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.mobile-toggle--fixed {
+  top: 13px; }
+
+/* line 141, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.navbar--fixed {
+  height: 70px; }
+  @media screen and (max-width: 567px) {
+    /* line 141, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+    .navbar--fixed {
+      height: 60px; } }
+
+/* line 148, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.no-overflow {
+  overflow: hidden; }
+  /* line 150, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .no-overflow:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: ' ';
+    z-index: 3;
+    background-color: rgba(32, 42, 60, 0.4); }
+
+/* line 162, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.header--fixed {
+  padding-top: 55px; }
+
+/* line 166, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.sidebar-nav {
+  position: fixed;
+  left: -250px;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #05070a;
+  box-shadow: 1px 0px 7px 0px #05070a;
+  transition: left 0.3s ease-in-out;
+  z-index: 4; }
+  /* line 176, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+  .sidebar-nav.active {
+    left: 0; }
+
+/* line 181, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_header.scss */
+.sidebar-nav__container {
+  padding-top: 60px;
+  padding-left: 15px; }
+
+/* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.footer {
+  padding: 60px 0 0;
+  background-color: #202a3c; }
+
+/* line 6, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.footer__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* line 12, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.footer__nav__item {
+  padding: 0 0 30px; }
+
+/* line 16, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.footer__nav__item__link {
+  display: block;
+  padding: 10px 35px;
+  color: #ffffff;
+  text-decoration: none; }
+  /* line 21, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+  .footer__nav__item__link:hover {
+    text-decoration: none;
+    color: #06ed06; }
+
+/* line 27, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.footer-social__section {
+  position: relative; }
+
+/* line 31, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.footer-social__content {
+  position: absolute;
+  top: -16px;
+  left: 0;
+  right: 0;
+  text-align: center; }
+
+/* line 39, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.footer-social__content__placeholder {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  background-color: #202a3c; }
+
+/* line 46, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.footer-links {
+  display: inline-block;
+  padding: 5px 15px;
+  color: #06ed06;
+  text-decoration: none;
+  transition: all 0.3s ease; }
+  /* line 52, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+  .footer-links:hover {
+    color: #54fb54;
+    text-decoration: underline; }
+
+/* line 58, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_footer.scss */
+.trademark {
+  text-align: center;
+  padding: 35px 10px 15px;
+  color: #9fa3a7; }
+
+/* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+.hero {
+  position: relative; }
+
+/* line 5, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+.hero__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  @media screen and (min-width: 567px) {
+    /* line 5, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+    .hero__title {
+      font-size: 30px; } }
+  @media screen and (min-width: 992px) {
+    /* line 5, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+    .hero__title {
+      margin-left: 0;
+      text-align: left; } }
+
+/* line 24, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+.hero--1 {
+  padding: 50px 0 0;
+  background-color: #202a3c; }
+
+/* line 29, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+.hero--2 {
+  padding: 110px 0;
+  background-image: url("../../img/forloop-2.jpg");
+  background-size: cover;
+  background-position: center; }
+  /* line 34, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+  .hero--2::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+    z-index: 1;
+    background-color: rgba(63, 74, 95, 0.7); }
+
+/* line 46, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+.hero__title--1 {
+  padding: 0 0 30px; }
+  @media screen and (min-width: 992px) {
+    /* line 46, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+    .hero__title--1 {
+      padding: 60px 0 30px;
+      max-width: 400px; } }
+
+/* line 54, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+.hero__title--2 {
+  max-width: 100%;
+  position: relative;
+  z-index: 2; }
+
+@media screen and (min-width: 992px) {
+  /* line 60, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+  .hero__left {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 44.55627%; }
+    /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+    .hero__left:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 1200px) {
+  /* line 60, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+  .hero__left {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+    .hero__left:last-child {
+      margin-right: 0; } }
+
+/* line 70, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+.hero__right {
+  overflow: hidden; }
+  @media screen and (max-width: 567px) {
+    /* line 70, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+    .hero__right {
+      margin-left: -15px;
+      margin-right: -15px; } }
+  @media screen and (min-width: 992px) {
+    /* line 70, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+    .hero__right {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 53.08608%; }
+      /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .hero__right:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1200px) {
+    /* line 70, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_hero.scss */
+    .hero__right {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .hero__right:last-child {
+        margin-right: 0; } }
+
+/* Reasons Section */
+/* line 3, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.reasons {
+  padding: 60px 0;
+  background-color: #ffffff; }
+
+/* line 8, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.section__title {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #202a3c;
+  padding-bottom: 50px; }
+  @media screen and (min-width: 567px) {
+    /* line 8, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .section__title {
+      font-size: 30px; } }
+
+/* line 19, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.reasons__item {
+  text-align: center; }
+  @media screen and (min-width: 768px) {
+    /* line 19, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .reasons__item {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .reasons__item:last-child {
+        margin-right: 0; } }
+
+/* line 26, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.reasons__item__title {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2.8px;
+  text-align: center;
+  color: #202a3c;
+  text-transform: uppercase; }
+
+/* line 35, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.reasons__item__content {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  padding: 14px; }
+
+/* line 42, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.reasons__item__icon {
+  text-align: center;
+  margin-bottom: 35px; }
+
+/* line 47, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.reasons__item__value {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  margin-left: -70px;
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  padding-top: 3px;
+  background-color: #06ed06; }
+
+/* Jumbotron Section */
+/* line 64, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.jumbotron {
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-color: #ffffff; }
+  @media screen and (min-width: 768px) {
+    /* line 64, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .jumbotron {
+      padding: 100px 0; } }
+
+/* line 77, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.jumbotron--overlay::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  z-index: 1;
+  background-color: rgba(63, 74, 95, 0.7); }
+
+/* line 90, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.jumbotron__title {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 463px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px; }
+  @media screen and (min-width: 567px) {
+    /* line 90, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .jumbotron__title {
+      font-size: 30px; } }
+
+/* line 105, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.jumbotron__title--2 {
+  max-width: 100%;
+  padding-bottom: 0;
+  color: #202a3c; }
+
+/* line 111, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.jumbotron__btn {
+  width: 220px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px; }
+
+/* line 118, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.overlay-fix {
+  position: relative;
+  z-index: 2; }
+
+/* line 123, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.input-section {
+  margin-bottom: 15px; }
+  @media screen and (min-width: 768px) {
+    /* line 123, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .input-section {
+      float: left;
+      display: block;
+      width: 68.23843%;
+      margin-bottom: 0px; }
+      /* line 81, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .input-section:last-child {
+        width: 65.88078%; } }
+
+@media screen and (min-width: 768px) {
+  /* line 131, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+  .submit-button {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+    .submit-button:last-child {
+      margin-right: 0; } }
+
+/* line 137, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.jumbotron__action--maxsize {
+  max-width: 550px;
+  margin: 20px auto; }
+
+/* Sponsors Section */
+/* line 144, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors {
+  padding: 60px 0;
+  position: relative;
+  background-color: #ffffff; }
+
+/* line 150, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__title {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #202a3c;
+  padding-bottom: 50px; }
+  @media screen and (min-width: 567px) {
+    /* line 150, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .sponsors__title {
+      font-size: 30px; } }
+
+/* line 161, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors-logo-blend {
+  position: relative;
+  display: block; }
+  /* line 164, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+  .sponsors-logo-blend::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: ' ';
+    background-color: #202a3c;
+    mix-blend-mode: color; }
+
+/* line 176, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors-image__responsive {
+  max-width: 100%;
+  display: block;
+  background-color: #fff; }
+
+/* line 182, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__row {
+  text-align: center; }
+
+/* line 186, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__item {
+  text-align: center;
+  position: relative; }
+
+/* line 191, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--gigalayer {
+  max-width: 225px; }
+
+/* line 195, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--printivo {
+  max-width: 171px; }
+
+/* line 199, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--flutterwave {
+  max-width: 218px; }
+
+/* line 203, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--capture {
+  max-width: 311px; }
+
+/* line 207, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--idea {
+  max-width: 156px; }
+
+/* line 211, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--enspire {
+  max-width: 174px; }
+
+/* line 215, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--chowhub {
+  max-width: 189px; }
+
+/* line 219, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--projaro {
+  max-width: 75px; }
+
+/* line 223, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__link--hotelsng {
+  max-width: 144px; }
+
+/* line 229, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__row--1,
+.sponsors__list__row--2 {
+  display: flex;
+  align-items: center; }
+
+/* line 234, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.sponsors__list__item {
+  display: flex;
+  flex: 1 1 auto;
+  padding: 20px 35px; }
+
+/* line 242, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.line-through {
+  margin: 0;
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #32425e; }
+
+/* About Section */
+/* line 251, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.about {
+  padding: 60px 0;
+  background-color: #ffffff; }
+
+/* line 256, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.about__title {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #202a3c;
+  padding-bottom: 10px; }
+  @media screen and (min-width: 567px) {
+    /* line 256, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .about__title {
+      font-size: 30px; } }
+
+/* line 267, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.about__content {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  color: #7787a3;
+  max-width: 756px;
+  margin: auto; }
+  @media screen and (min-width: 567px) {
+    /* line 267, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .about__content {
+      font-size: 22px; } }
+
+/* Image Section */
+/* line 283, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.images__section {
+  padding: 30px 0;
+  background-color: #ffffff; }
+
+/* line 288, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.images__section__left {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  height: 424px; }
+  /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+  .images__section__left:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    /* line 288, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .images__section__left {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      height: 424px; }
+      /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .images__section__left:last-child {
+        margin-right: 0; } }
+
+/* line 297, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.images__section__middle {
+  height: 300px; }
+  @media screen and (min-width: 567px) {
+    /* line 297, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .images__section__middle {
+      height: 424px; } }
+  @media screen and (min-width: 768px) {
+    /* line 297, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .images__section__middle {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .images__section__middle:last-child {
+        margin-right: 0; } }
+
+/* line 307, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.images__section__right {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+  .images__section__right:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    /* line 307, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .images__section__right {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      height: 424px; }
+      /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .images__section__right:last-child {
+        margin-right: 0; } }
+
+/* line 315, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.images__section__right__top {
+  margin-bottom: 24px;
+  height: 200px; }
+
+/* line 320, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.images__section__right__bottom {
+  height: 200px; }
+
+/* line 327, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.images__section__left,
+.images__section__middle,
+.images__section__right__top,
+.images__section__right__bottom {
+  background-size: cover;
+  background-position: center; }
+
+/* Meeting Sections */
+/* line 335, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item {
+  margin-bottom: 20px; }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 335, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .meeting__item {
+      margin-bottom: 25px;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      height: 251px; }
+      /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .meeting__item:last-child {
+        margin-right: 0; }
+      /* line 76, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_omega.scss */
+      .meeting__item:nth-child(2n) {
+        margin-right: 0; }
+      /* line 82, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_omega.scss */
+      .meeting__item:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (min-width: 992px) {
+    /* line 335, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+    .meeting__item {
+      margin-bottom: 25px;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      height: 251px; }
+      /* line 89, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_span-columns.scss */
+      .meeting__item:last-child {
+        margin-right: 0; }
+      /* line 76, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_omega.scss */
+      .meeting__item:nth-child(3n) {
+        margin-right: 0; }
+      /* line 82, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/grid/_omega.scss */
+      .meeting__item:nth-child(3n+1) {
+        clear: left; } }
+
+/* line 351, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__content {
+  padding: 15px 30px 15px 15px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2; }
+
+/* line 357, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__title {
+  font-size: 24px;
+  color: #202a3c;
+  text-decoration: none; }
+  /* line 361, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+  .meeting__item__title:hover {
+    color: black; }
+
+/* line 366, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__location {
+  color: #202a3c;
+  text-decoration: none; }
+  /* line 369, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+  .meeting__item__location:hover {
+    color: black; }
+
+/* line 374, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__date {
+  color: #202a3c; }
+
+/* line 378, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__host__caption {
+  letter-spacing: 0.3px;
+  color: #9fa3a7;
+  margin-left: 10px; }
+
+/* line 384, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__host {
+  display: flex;
+  align-items: center; }
+
+/* line 389, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__content__top {
+  height: 130px; }
+
+/* line 393, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__resource {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  background-color: #202a3c;
+  text-decoration: none;
+  padding: 10px 15px; }
+
+/* line 403, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__resource__text {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #ffffff; }
+
+/* line 410, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__resource__icon {
+  padding-top: 5px; }
+
+/* line 414, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__icon {
+  color: #cacaca; }
+
+/* line 418, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__caption {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin: 10px;
+  color: #cacaca; }
+
+/* line 426, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item--dashed {
+  border: 1px dashed #e2e2e2; }
+
+/* line 430, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.meeting__item__add {
+  padding: 80px 0;
+  cursor: pointer;
+  text-decoration: none; }
+  /* line 434, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+  .meeting__item__add:hover {
+    text-decoration: none; }
+
+/* Tabs */
+/* line 442, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.tab-nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 30px;
+  background-color: #ffffff; }
+
+/* line 453, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.tab-nav__item.active .tab-nav__link {
+  box-shadow: inset 0 -4px 0 0 #06ed06; }
+
+/* line 459, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.tab-nav__link {
+  display: block;
+  padding: 20px 25px;
+  text-decoration: none;
+  color: #202a3c;
+  text-align: center;
+  font-size: 16px; }
+  /* line 466, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+  .tab-nav__link:hover {
+    box-shadow: inset 0 -4px 0 0 #06ed06; }
+
+/* line 471, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.tab__section {
+  background-color: #ffffff; }
+
+/* line 475, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+.tab-content__item {
+  padding: 40px 0 80px;
+  border-bottom: 1px solid #e2e2e2;
+  display: none; }
+  /* line 479, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_info.scss */
+  .tab-content__item.active {
+    display: block; }
+
+/* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+.container {
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media screen and (min-width: 576px) {
+    /* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+    .container {
+      width: 540px;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media screen and (min-width: 768px) {
+    /* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+    .container {
+      width: 750px; } }
+  @media screen and (min-width: 992px) {
+    /* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+    .container {
+      width: 970px; } }
+  @media screen and (min-width: 1200px) {
+    /* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+    .container {
+      width: 1170px; } }
+  @media screen and (min-width: 1600px) {
+    /* line 1, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+    .container {
+      width: 1300px; } }
+
+@media screen and (min-width: 540px) {
+  /* line 28, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+  .outer-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 20, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/mixins/_clearfix.scss */
+    .outer-container::after {
+      clear: both;
+      content: "";
+      display: block; } }
+
+/* line 34, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+.outer-container--full {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/libraries/neat/mixins/_clearfix.scss */
+  .outer-container--full::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+/* line 38, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+.hide {
+  display: none; }
+
+/* line 42, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+.block {
+  display: block; }
+
+@media screen and (max-width: 576px) {
+  /* line 46, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+  .hidden--xxs {
+    display: none; } }
+
+@media screen and (max-width: 767px) {
+  /* line 52, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+  .hidden--xs {
+    display: none; } }
+
+/* line 58, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+.text-center {
+  text-align: center; }
+
+/* line 62, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+.img-circle {
+  border-radius: 50%; }
+
+/* line 66, /Users/nosaobaseki/Documents/Store/Panda/Ui Prototype/Ridwan Olalere/forLoop/stylesheets/scss/_helpers.scss */
+.inline-block {
+  display: inline-block;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=main.css.map */
