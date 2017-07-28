@@ -9,7 +9,6 @@ Front-end code for the forloop Website ( A community of passionate software deve
 Make sure these are installed first.
 
 - [Node.js](http://nodejs.org)
-- [Yarn](https://yarnpkg.com/) `npm install -g yarn`
 - [Gulp](http://gulpjs.com) `npm install -g gulp`
 
 ### Quick Start
